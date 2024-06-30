@@ -1,0 +1,72 @@
+.header {
+    width: 100%;
+    padding-right: 1rem;
+    height: 4rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box; /* Add this line */
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Segoe UI', -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+}
+
+.logo {
+    height: 3rem;
+    width: 3rem;
+}
+
+.control-icon {
+    height: 1rem;
+    width: 1rem;
+}
+
+.header-logo-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    user-select: none;
+}
+
+.header-controls {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.header-controls-control {
+    display: flex;
+    gap: 1rem;
+}
+
+/** heaeder button styligns **/
+.header-button {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 3rem;
+    background-color: transparent;
+}
+
+.header-button:hover {
+    border: 1px solid #666666;
+    background-color: #252525;
+}
+
+.header-button:active {
+    border: 1px solid white;
+
+}
+
+
+
