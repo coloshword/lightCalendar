@@ -1,7 +1,10 @@
 .main-calendar-cont {
     width: 70%;
     height: calc(100svh - 4rem); 
-    border-right: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #1f1f1f;
 }
 
 
